@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>DN Fairytale</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300i,400,500" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Yeseva+One&display=swap" rel="stylesheet"> 
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/easy-responsive-tabs.css">
+<link rel="stylesheet" href="css/fancybox.min.css">
+
+<style type="text/css">
+.bg-bubbles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.bg-bubbles li {
+  position: absolute;
+  list-style: none;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: url('img/ani-icon.png'); background-size: 100%; 
+ bottom: -160px;
+  -webkit-animation: square 25s infinite;
+  animation: square 25s infinite;
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
+}
+.bg-bubbles li:nth-child(1) {
+  left: 10%;
+}
+.bg-bubbles li:nth-child(2) {
+  left: 20%; opacity: .2;
+  width: 80px;
+  height: 80px;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-duration: 17s;
+          animation-duration: 17s;
+}
+.bg-bubbles li:nth-child(3) {
+  left: 25%;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+.bg-bubbles li:nth-child(4) {
+  left: 40%;
+  width: 60px;
+  height: 60px;
+  -webkit-animation-duration: 22s;
+          animation-duration: 22s;
+}
+.bg-bubbles li:nth-child(5) {
+  left: 70%;
+}
+.bg-bubbles li:nth-child(6) {
+  left: 80%; opacity: .2;
+  width: 120px;
+  height: 120px;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+.bg-bubbles li:nth-child(7) {
+  left: 32%; opacity: .2;
+  width: 160px;
+  height: 160px;
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
+}
+.bg-bubbles li:nth-child(8) {
+  left: 55%; 
+  width: 20px;
+  height: 20px;
+  -webkit-animation-delay: 15s;
+          animation-delay: 15s;
+  -webkit-animation-duration: 40s;
+          animation-duration: 40s;
+}
+.bg-bubbles li:nth-child(9) {
+  left: 25%;
+  width: 10px;
+  height: 10px;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-duration: 40s;
+          animation-duration: 40s;
+}
+.bg-bubbles li:nth-child(10) {
+  left: 90%; opacity: .2;
+  width: 160px;
+  height: 160px;
+  -webkit-animation-delay: 11s;
+          animation-delay: 11s;
+}
+@-webkit-keyframes square {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100vh);
+            transform: translateY(-100vh);
+  }
+}
+@keyframes square {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100vh) rotate(60deg);
+            transform: translateY(-100vh) rotate(60deg);
+  }
+}
+</style>
+
+
+
+</head>
+<body>
+<!-- ================Offcanvus Menu Area =================-->
+<div class="side_menu">
+  <ul class="list menu_right">
+    <li> <a href="#">Specifications</a> </li>
+    <li> <a href="#">Gallery</a> </li>
+    <li> <a href="#">Plans</a> </li>
+    <li> <a href="#">Construction Update</a> </li>
+    <li> <a href="#">Walkthrough</a> </li>
+    <li> <a href="#">Apartment Finder</a> </li>
+    <li> <a href="#">Location Map</a> </li>
+    <li> <a href="#">Contact</a> </li>
+  </ul>
+</div>
+<!--================End Offcanvus Menu Area =================--> 
+
+<!--================Canvus Menu Area =================-->
+<div class="canvus_menu">
+  <div class="container">
+    <div class="float-right">
+      <div class="toggle_icon" title="Menu Bar"> <span></span> </div>
+    </div>
+  </div>
+</div>
+<!--================End Canvus Menu Area =================-->
+<header>
+  <div class="hero"> <a class="navbar-brand" href="index.html"> <img  src="img/logo.png" alt=""> </a>
+    <div class="owl-carousel owl-theme heroCarousel">
+      <div class="item">
+        <div class="hero__slide"> <img class="img-fluid" src="img/banner1.jpg" alt="">
+          <div class="hero__slideContent text-center">
+            <h1>Dream Heaven City</h1>
+            <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <a class="btn btn--leftBorder btn--rightBorder" href="#/">Details</a> <span class="hero__slideContent--right"></span> </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="hero__slide"> <img class="img-fluid" src="img/banner2.jpg" alt="">
+          <div class="hero__slideContent text-center">
+            <h1>Dream Heaven City</h1>
+            <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <a class="btn btn--leftBorder btn--rightBorder" href="#/">Details</a> <span class="hero__slideContent--right"></span> </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="hero__slide"> <img class="img-fluid" src="img/banner3.jpg" alt="">
+          <div class="hero__slideContent text-center">
+            <h1>Dream Heaven City</h1>
+            <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <a class="btn btn--leftBorder btn--rightBorder" href="#/">Details</a> <span class="hero__slideContent--right"></span> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<section id="about" class="about section-margin mb-5">
+  <div class="container-fluid">
+    <div class="row align-items-center">
+      <div class="col-md-5">
+        <div class="about__img text-center text-md-left mb-5 mb-md-0">
+          <div class="about__slideContent text-center"> 
+            <!--<h1>Dream Heaven City</h1>
+              <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+							<a class="btn btn--leftBorder btn--rightBorder" href="#/">Details</a>		--> 
+            <a href="#/" class="about__img__date text-center">
+            <h3>26</h3>
+            <p>Years <br>
+              of Creativity</p>
+            </a> <span class="about__slideContent--right"></span> </div>
+        </div>
+      </div>
+      <div class="col-md-7 pl-xl-5 about_rightsec">
+        <div class="section-intro">
+          <h1 class="section-intro__title">About DN Fairytale</h1>
+          <!--<h2 class="section-intro__subtitle">We've been creating <br>-->
+           <!-- Awesome Since 1992</h2>-->
+        </div>
+        <p class="dtails_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.</p>
+        <p class="dtails_text">Making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
+        <a class="btn btn_2  btn--rightBorder2 mt-4" href="#/">Read More</a> </div>
+    </div>
+  </div>
+
+  
+</section>
+
+<!--Tab Section-->
+<section id="specification" class="aboutContainer sectionPadding">
+  <div class="container-fluid">
+
+    <h2>Project Specification</h2>
+      <p class="dtails_text mb-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+
+      <div class="owl-carousel owl-theme spec">
+    <div class="item">
+      <img src="img/spec-1.jpg" class="img-fluid">
+      <h3>Health Related</h3>
+      <p>It is a long established fact that a reader will be distracted by the readable content of a page when</p>
+    </div>
+
+    <div class="item">
+      <img src="img/spec-2.jpg" class="img-fluid">
+      <h3>Sports and Activity</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+    </div>
+
+    <div class="item">
+      <img src="img/spec-3.jpg" class="img-fluid">
+      <h3>Ceremony</h3>
+      <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
+    </div>
+
+    <div class="item">
+      <img src="img/spec-4.jpg" class="img-fluid">
+      <h3>Kids Education</h3>
+      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece</p>
+    </div>
+
+    <div class="item">
+      <img src="img/spec-5.jpg" class="img-fluid">
+      <h3>General Amenites</h3>
+      <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary</p>
+    </div>
+
+    <div class="item">
+      <img src="img/spec-6.jpg" class="img-fluid">
+      <h3>Anciliary</h3>
+      <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+    </div>
+</div>
+
+      
+
+      
+    
+  </div>
+</section>
+
+
+<section id="tab" class="aboutContainer sectionPadding">
+  <div class="container-fluid">
+    <h2>Gallery</h2>
+      <p class="dtails_text mb-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here.</p>
+    <div id="parentHorizontalTab">
+      <ul class="resp-tabs-list hor_1">
+        <li>Exterior</li>
+        <li>Interior</li>
+        <li>Others</li>
+      </ul>
+      <div class="resp-tabs-container hor_1">
+        <div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-3">
+              <div class="img_hover">
+                <div class="project_img"> <a href="img/project1.jpg" data-fancybox="images" data-caption="image title"> <img class="img-fluid" src="img/project1.jpg" alt="project"></a> </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-3">
+              <div class="img_hover">
+                <div class="project_img"> <a href="img/project2.jpg" data-fancybox="images" data-caption="image title"> <img class="img-fluid" src="img/project2.jpg" alt="project"></a> </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-3">
+              <div class="img_hover">
+                <div class="project_img"> <a href="img/project3.jpg" data-fancybox="images" data-caption="image title"> <img class="img-fluid" src="img/project3.jpg" alt="project"></a> </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-3">
+              <div class="img_hover">
+                <div class="project_img"> <a href="img/project4.jpg" data-fancybox="images" data-caption="image title"> <img class="img-fluid" src="img/project4.jpg" alt="project"></a> </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-3">
+              <div class="img_hover">
+                <div class="project_img"> <a href="img/project5.jpg" data-fancybox="images" data-caption="image title"> <img class="img-fluid" src="img/project5.jpg" alt="project"></a> </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-3">
+              <div class="img_hover">
+                <div class="project_img"> <a href="img/project6.jpg" data-fancybox="images" data-caption="image title"> <img class="img-fluid" src="img/project6.jpg" alt="project"></a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-3">
+              <div class="img_hover">
+                <div class="project_img"> <a href="img/project7.jpg" data-fancybox="images" data-caption="image title"> <img class="img-fluid" src="img/project7.jpg" alt="project"></a> </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-3">
+              <div class="img_hover">
+                <div class="project_img"> <a href="img/project8.jpg" data-fancybox="images" data-caption="image title"> <img class="img-fluid" src="img/project8.jpg" alt="project"></a> </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-3">
+              <div class="img_hover">
+                <div class="project_img"> <a href="img/project6.jpg" data-fancybox="images" data-caption="image title"> <img class="img-fluid" src="img/project6.jpg" alt="project"></a> </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-3">
+              <div class="img_hover">
+                <div class="project_img"> <a href="img/project1.jpg" data-fancybox="images" data-caption="image title"> <img class="img-fluid" src="img/project1.jpg" alt="project"></a> </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-3">
+              <div class="img_hover">
+                <div class="project_img"> <a href="img/project3.jpg" data-fancybox="images" data-caption="image title"> <img class="img-fluid" src="img/project3.jpg" alt="project"></a> </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-3">
+              <div class="img_hover">
+                <div class="project_img"> <a href="img/project2.jpg" data-fancybox="images" data-caption="image title"> <img class="img-fluid" src="img/project2.jpg" alt="project"></a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-3">
+              <div class="img_hover">
+                <div class="project_img"> <a href="img/project1.jpg" data-fancybox="images" data-caption="image title"> <img class="img-fluid" src="img/project1.jpg" alt="project"></a> </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-3">
+              <div class="img_hover">
+                <div class="project_img"> <a href="img/project2.jpg" data-fancybox="images" data-caption="image title"> <img class="img-fluid" src="img/project2.jpg" alt="project"></a> </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-3">
+              <div class="img_hover">
+                <div class="project_img"> <a href="img/project3.jpg" data-fancybox="images" data-caption="image title"> <img class="img-fluid" src="img/project3.jpg" alt="project"></a> </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-3">
+              <div class="img_hover">
+                <div class="project_img"> <a href="img/project4.jpg" data-fancybox="images" data-caption="image title"> <img class="img-fluid" src="img/project4.jpg" alt="project"></a> </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-3">
+              <div class="img_hover">
+                <div class="project_img"> <a href="img/project6.jpg" data-fancybox="images" data-caption="image title"> <img class="img-fluid" src="img/project6.jpg" alt="project"></a> </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-3">
+              <div class="img_hover">
+                <div class="project_img"> <a href="img/project8.jpg" data-fancybox="images" data-caption="image title"> <img class="img-fluid" src="img/project8.jpg" alt="project"></a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!--=============
+   Floor Plan
+ ===============-->
+
+<section id="floor_plan" class="floor_plan">
+  <div class="container-fluid">
+    <div class="section-intro">
+      <h2 class="text-center">Project Plans</h2>
+    </div>
+  </div>
+</section>
+<section id="unitPlan" class="secHeading ">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="unitPlanContainer">
+          <ul class="nav nav-tabs floor-plans-tab" role="tablist">
+            <li role="presentation"><a href="#masterPlan" class="active" aria-controls="1" role="tab" data-toggle="tab">Master Plan</a></li>
+            <li role="presentation"><a href="#2bhk" aria-controls="1" role="tab" data-toggle="tab">Floor Plans</a></li>
+            <li role="presentation"><a href="#3bhk" aria-controls="2" role="tab" data-toggle="tab">Unit Plans</a></li>
+          </ul>          
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="masterPlan">
+              
+              <div class="tab-content">
+                <div class="Plan_Content">
+                <img src="img/master-plan.jpg" class="img-fluid" style="display: block; margin: 0 auto; text-align: center;">
+                </div>
+              </div>
+            </div>
+
+            <div role="tabpanel" class="tab-pane" id="2bhk">
+              <ul class="nav nav-tabs twobhkCont" role="tablist">
+                <li role="presentation"><a href="#2bhk1" class="active" aria-controls="5" role="tab" data-toggle="tab">123 SQFT</a></li>
+                <li role="presentation"><a href="#2bhk2" aria-controls="6" role="tab" data-toggle="tab">123  SQFT</a></li>
+                <li role="presentation"><a href="#2bhk3" aria-controls="6" role="tab" data-toggle="tab">123 SQFT</a></li>
+              </ul>
+              <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="2bhk1">
+                  <div class="Plan_Content"> <a href="img/floor_plan/6b.jpg" data-fancybox="group2" data-caption="">
+                  <img src="img/floor_plan/6b.jpg" class="img-fluid" /></a> </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="2bhk2">
+                  <div class="Plan_Content"> <a href="img/floor_plan/2b.jpg" data-fancybox="group2" data-caption="">
+                  <img class="img-fluid" src="img/floor_plan/2b.jpg" class="img-fluid" /></a> </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="2bhk3">
+                  <div class="Plan_Content"> <a href="img/floor_plan/6b.jpg" data-fancybox="group2" data-caption="">
+                  <img class="img-fluid" src="img/floor_plan/6b.jpg" class="img-fluid" /></a> </div>
+                </div>
+              </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="3bhk">
+              <ul class="nav nav-tabs twobhkCont" role="tablist">
+                <li role="presentation"><a href="#3bhk1" class="active" aria-controls="5" role="tab" data-toggle="tab">1234 SQFT</a></li>
+                <li role="presentation"><a href="#3bhk2" aria-controls="6" role="tab" data-toggle="tab">213 SQFT</a></li>
+                <li role="presentation"><a href="#3bhk3" aria-controls="6" role="tab" data-toggle="tab">658 SQFT</a></li>
+                <li role="presentation"><a href="#3bhk4" aria-controls="6" role="tab" data-toggle="tab">856 SQFT</a></li>
+                <li role="presentation"><a href="#3bhk5" aria-controls="6" role="tab" data-toggle="tab">668 SQFT</a></li>
+                <li role="presentation"><a href="#3bhk6" aria-controls="6" role="tab" data-toggle="tab">636.42 SQFT</a></li>
+              </ul>
+              <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="3bhk1">
+                  <div class="Plan_Content"> <a href="img/floor_plan/1b.jpg" data-fancybox="group2" data-caption="">
+                  <img class="img-fluid" src="img/floor_plan/1b.jpg" class="img-fluid" /></a> </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="3bhk2">
+                  <div class="Plan_Content"> <a href="img/floor_plan/7b.jpg" data-fancybox="group2" data-caption="">
+                  <img class="img-fluid" src="img/floor_plan/7b.jpg" class="img-fluid" /></a> </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="3bhk3">
+                  <div class="Plan_Content"> <a href="img/floor_plan/8b.jpg" data-fancybox="group2" data-caption="">
+                  <img class="img-fluid" src="img/floor_plan/8b.jpg" class="img-fluid" /></a> </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="3bhk4">
+                  <div class="Plan_Content"> <a href="img/floor_plan/5b.jpg" data-fancybox="group2" data-caption="">
+                  <img class="img-fluid" src="img/floor_plan/5b.jpg" class="img-fluid" /></a> </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="3bhk5">
+                  <div class="Plan_Content"> <a href="img/floor_plan/7b.jpg" data-fancybox="group2" data-caption="">
+                  <img class="img-fluid" src="img/floor_plan/7b.jpg" class="img-fluid" /></a> </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="3bhk6">
+                  <div class="Plan_Content"> <a href="img/floor_plan/8b.jpg" data-fancybox="group2" data-caption="">
+                  <img class="img-fluid" src="img/floor_plan/8b.jpg" class="img-fluid" /></a> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="gallery1" class="sectionPadding">
+<div class="container-fluid">
+    <div class="section-intro">
+      <h1 class="section-intro__title text-center">Walkthrough</h1>  
+    </div>
+    </div>
+	
+    <video poster="images/video_1_bg.jpg" preload="auto" autoplay id="bgvid" loop muted="">
+    <source src="video/5.mp4" type="video/mp4">
+    <source src="video/5.m4v" type="video/m4v">
+    <source src="video/5.webm" type="video/webm">
+    <source src="video/5.ogv" type="video/ogv">
+  </video>
+   
+</section>
+
+<section>
+
+</section>
+
+
+<section id="contact" class="contact">
+  <div class="container-fluid">
+    <div class="section-intro">
+      <h1 class="section-intro__title text-center">Contact</h1>
+      <h2 class="section-intro__subtitle text-center">Lorem Ipsum has been the industry's standard</h2>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-6">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.0325419985115!2d88.43557041495967!3d22.577886185180045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275a1687fa625%3A0x24b4a3166a23939f!2sMayabious+Art!5e0!3m2!1sen!2sin!4v1564483657943!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+     <div class="col-lg-6 col-md-6 col-sm-6">
+    <form action="#">
+    <div class="input-container">
+   <i class="fab fa-accessible-icon form_icon"></i>
+    <input class="input-field" type="text" placeholder="Name" name="Name">
+  </div>
+
+  <div class="input-container">
+    <i class="fas fa-envelope form_icon"></i>
+    <input class="input-field" type="text" placeholder="Email" name="email">
+  </div>
+  
+  <div class="input-container">
+   <i class="fas fa-mobile-alt form_icon"></i>
+    <input class="input-field" type="text" placeholder="Ph. No" name="psw">
+  </div>
+  <div class="input-container">
+    <i class="fas fa-comment-dots form_icon_big"></i>
+    <textarea class="input-field" type="text" placeholder="Massage" name="msg"></textarea>
+  </div>
+
+  <button type="submit" class="btn3">Submit</button>
+</form>
+    </div>
+    </div>
+ 
+  
+</section>
+
+<section id="footer" class="footer bg-dark">
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-3">
+        <h3>Menu</h3>
+        <ul class="fmenu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projrct</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h3>Plan</h3>
+        <ul class="fmenu">
+          <li><a href="#">Floor Plan</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Interior</a></li>
+          <li><a href="#">Exterior</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h3>Quick View</h3>
+        <ul class="fmenu">
+          <li><a href="#">360 View</a></li>
+          <li><a href="#">Aerial View</a></li>
+          <li><a href="#">Virtual Reality</a></li>
+          <li><a href="#">Augmented Reality</a></li>
+         </ul>
+      </div>
+      <div class="col-sm-3">
+        <h3>Follow Us</h3>
+        <ul class="social">
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li> 
+          <div class="clearfix"></div>
+        </ul>
+      </div>
+    </div>
+
+    <hr>
+    <div class="row copyWrite">
+      <div class="col-sm-12">
+        <p>
+          DN Fairytale | Copyright © 2019
+          <span class="float-right">
+            Designed by <a href="#">Mayabious Art</a>
+          </span>
+        </p>
+      </div>
+    </div>
+</div>
+</section>
+
+
+<ul class="bg-bubbles">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+
+<script src="js/jquery-3.2.1.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+
+<script src="js/owl.carousel.min.js"></script> 
+<script src="js/slick.js"></script> 
+<script src="js/easyResponsiveTabs.js"></script> 
+<script src="js/script.js"></script> 
+<script src="js/fancybox.min.js"></script>
+</body>
+</html>
