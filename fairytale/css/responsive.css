@@ -1,0 +1,184 @@
+
+@media (max-width:1400px){
+.side_menu .menu_right li { margin-bottom: 30px;}
+.hero__slideContent{ top:10%;}
+.side_menu .menu_right {position: absolute; left: 39%; top: 40%;}
+
+}
+@media (max-width: 1200px) {
+      .canvus_menu .float-right {
+        width: 70px;
+        height: 70px; } 
+		.canvus_menu .toggle_icon {
+        top: 13px;
+        right: 20px; } 
+
+		
+		
+		}
+		
+@media (min-width: 1200px) {
+      .navbar-brand img {
+        width: 100%;
+    height: auto;  }
+	.hero-banner {
+      padding: 165px 0; }
+	  .hero__slide img {
+        max-height: 900px; }
+		.hero__slideContent {
+        margin-left: 340px; }
+		 .about__slideContent {
+        margin-left:0px; }
+		
+	   }
+	
+	
+@media (max-width: 1199px) {
+  .modal-fullscreen-md-down {
+    padding: 0 !important;
+  }
+  .modal-fullscreen-md-down .modal-dialog {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .modal-fullscreen-md-down .modal-content {
+    height: auto;
+    min-height: 100%;
+    border: 0 none;
+    border-radius: 0;
+  }
+  .hero__slideContent { left: 58%;}
+  .about_rightsec p + p{ padding:0px !important;}
+}
+@media (max-width: 1024px) {
+	h2, .h2{font-size: 1.8rem;}
+	.hero__slide{height: 40vh !important;}
+	.navbar-brand img{ width:60%}
+	.hero__slideContent{ left:70%; padding:20px 10px;}
+	.hero__slideContent h1{font-size: 1.5rem; margin-bottom:10px;}
+	.hero__slideContent p{ margin-bottom:10px;}
+	
+	}
+@media (max-width: 991px) {
+  .modal-fullscreen-sm-down {
+    padding: 0 !important;
+  }
+  .modal-fullscreen-sm-down .modal-dialog {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .modal-fullscreen-sm-down .modal-content {
+    height: auto;
+    min-height: 100%;
+    border: 0 none;
+    border-radius: 0;}
+	
+	.hero__slideContent{ top:6%;}
+	.about_rightsec p + p{ padding:0px !important;}
+}
+
+@media (max-width:992px){
+	.hero__slide { height: 40vh !important;}
+	.about_rightsec p + p{ padding:0px !important;}
+
+	
+}
+
+@media (min-width: 992px) {
+    .hero-banner {
+      padding: 125px 0 100px 0; } }
+@media (min-width: 768px) {
+	
+}
+
+@media (max-width:767px){
+	
+	.floor-plans-tab li a{ font-size:16px;}
+	.section-intro__subtitle{font-size: 1.5rem;}
+	.navbar-brand img{ width:170px; height:auto;}
+	 .hero__slide{height: 40vh !important;}
+	.hero__slideContent{ top:10%;}
+	.modal-fullscreen-xs-down {
+    padding: 0 !important;}
+  .modal-fullscreen-xs-down .modal-dialog { width: 100%; height: 100%; margin: 0; padding: 0;}
+  .modal-fullscreen-xs-down .modal-content { height: auto; min-height: 100%; border: 0 none; border-radius: 0; }	
+	.side_menu{ z-index:9;}
+	.side_menu { max-width: 50%; right: -55%;}
+	.hero__slideContent{padding: 10px;}
+	.hero__slideContent h1{ font-size:22px;}
+	.hero__slideContent p{ font-size:16px; margin-bottom:5px;}
+	.about_rightsec{ margin-top:44%;}
+	.heroCarousel .owl-dots { bottom: 40%;}
+	#specification, #tab, #walkthrough, #location_map, #contact, .about { padding:35px 0px}
+	.bubble_padding{ display:none !important;}
+	
+	
+	  
+	  
+	
+}
+@media (max-width:600px){
+
+
+}
+
+@media (max-width: 575px) {
+    .side_menu {
+      max-width: 60%;
+      right: -75%; }
+    .side_menu .menu_right li a {
+       font-size: 18px; }
+	   .hero__slideContent {
+        bottom: 60px; }
+		.about__slideContent {
+        bottom: 60px; }
+		.hero__slideContent {height:215px !important;}
+		.about_rightsec{ margin-top:50%;}
+		
+	    }
+	  
+@media (max-width:500px){
+
+	
+}
+
+@media (max-width:480px){
+	h2, .h2{font-size: 1.5rem;}
+	.dtails_text{ font-size:16px;}
+	.hero__slideContent { position: inherit; width: 100%; top: 0;left:0; transform: translateX(0%); max-width: 100%; padding: 18px; z-index: 5;}
+.heroCarousel .owl-dots { bottom: 12%;}
+.hero__slideContent { background:rgba(89, 94, 97, .8); height:215px !important;}
+.hero__slideContent::before { display:none;}
+.hero__slideContent::after { display:none;}
+.hero__slideContent--right { display:none;}
+.hero__slide{ height:50vh !important;}
+#specification, #tab, #walkthrough, #location_map, #contact, .about { padding:30px 0px;}
+.about_rightsec{ margin-top:60%;}
+}
+
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+.about__slideContent{ top:0; left:50%;}
+.about__slideContent{ height:25vh;}
+.side_menu .menu_right { top: 28%;}
+
+}
+
+@media (max-width: 320px){
+	.about_rightsec{ margin-top:90%;}
+.heroCarousel .owl-dots { bottom: 2%;}
+.hero__slide { height: 40vh !important;}
+#specification, #tab, #walkthrough, #location_map, #contact, .about { padding:20px 0px}
+#floor_plan { padding-top: 33px;}
+
+
+
+
+	}
+
+
